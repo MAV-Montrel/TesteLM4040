@@ -1,0 +1,135 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"3 Convert.c
+[; ;Convert.c: 3: void Convert_ftochar ( float x , char* y){
+[v _Convert_ftochar `(v ~T0 @X0 1 ef2`f`*uc ]
+{
+[e :U _Convert_ftochar ]
+[v _x `f ~T0 @X0 1 r1 ]
+[v _y `*uc ~T0 @X0 1 r2 ]
+[f ]
+"5
+[; ;Convert.c: 5:   int valor = 0;
+[v _valor `i ~T0 @X0 1 a ]
+[e = _valor -> 0 `i ]
+"7
+[; ;Convert.c: 7:         int aux = 0;
+[v _aux `i ~T0 @X0 1 a ]
+[e = _aux -> 0 `i ]
+"9
+[; ;Convert.c: 9:   valor = (int)x;
+[e = _valor -> _x `i ]
+"10
+[; ;Convert.c: 10:         aux = x * 10;
+[e = _aux -> * _x -> -> 10 `i `f `i ]
+"25
+[; ;Convert.c: 25:   y[0] = ((valor / 100)%10)+48;
+[e = *U + _y * -> -> 0 `i `x -> -> # *U _y `i `x -> + % / _valor -> 100 `i -> 10 `i -> 48 `i `uc ]
+"26
+[; ;Convert.c: 26:   y[1] = ((valor / 10)%10)+48;
+[e = *U + _y * -> -> 1 `i `x -> -> # *U _y `i `x -> + % / _valor -> 10 `i -> 10 `i -> 48 `i `uc ]
+"27
+[; ;Convert.c: 27:   y[2] = (valor % 10)+48;
+[e = *U + _y * -> -> 2 `i `x -> -> # *U _y `i `x -> + % _valor -> 10 `i -> 48 `i `uc ]
+"29
+[; ;Convert.c: 29:   y[3] = '.';
+[e = *U + _y * -> -> 3 `i `x -> -> # *U _y `i `x -> -> 46 `ui `uc ]
+"31
+[; ;Convert.c: 31:         y[4] = (aux - (valor * 10))+48;
+[e = *U + _y * -> -> 4 `i `x -> -> # *U _y `i `x -> + - _aux * _valor -> 10 `i -> 48 `i `uc ]
+"33
+[; ;Convert.c: 33:         if(y[0] == '0')
+[e $ ! == -> *U + _y * -> -> 0 `i `x -> -> # *U _y `i `x `ui -> 48 `ui 4  ]
+"34
+[; ;Convert.c: 34:         {
+{
+"35
+[; ;Convert.c: 35:             y[0] = ' ';
+[e = *U + _y * -> -> 0 `i `x -> -> # *U _y `i `x -> -> 32 `ui `uc ]
+"36
+[; ;Convert.c: 36:         }
+}
+[e :U 4 ]
+"38
+[; ;Convert.c: 38: }
+[e :UE 3 ]
+}
+"40
+[; ;Convert.c: 40: void Convert_uint8tochar ( uint8_t x , char* y)
+[v _Convert_uint8tochar `(v ~T0 @X0 1 ef2`uc`*uc ]
+"41
+[; ;Convert.c: 41: {
+{
+[e :U _Convert_uint8tochar ]
+"40
+[; ;Convert.c: 40: void Convert_uint8tochar ( uint8_t x , char* y)
+[v _x `uc ~T0 @X0 1 r1 ]
+[v _y `*uc ~T0 @X0 1 r2 ]
+"41
+[; ;Convert.c: 41: {
+[f ]
+"42
+[; ;Convert.c: 42:     y[0] = ((x) / 100)+48;
+[e = *U + _y * -> -> 0 `i `x -> -> # *U _y `i `x -> + / -> _x `i -> 100 `i -> 48 `i `uc ]
+"43
+[; ;Convert.c: 43:     y[1] = ((x % 100)/10)+48;
+[e = *U + _y * -> -> 1 `i `x -> -> # *U _y `i `x -> + / % -> _x `i -> 100 `i -> 10 `i -> 48 `i `uc ]
+"44
+[; ;Convert.c: 44:     y[2] = (x % 10)+48;
+[e = *U + _y * -> -> 2 `i `x -> -> # *U _y `i `x -> + % -> _x `i -> 10 `i -> 48 `i `uc ]
+"46
+[; ;Convert.c: 46:     if(y[0] == '0')
+[e $ ! == -> *U + _y * -> -> 0 `i `x -> -> # *U _y `i `x `ui -> 48 `ui 6  ]
+"47
+[; ;Convert.c: 47:     {
+{
+"48
+[; ;Convert.c: 48:         y[0] = ' ';
+[e = *U + _y * -> -> 0 `i `x -> -> # *U _y `i `x -> -> 32 `ui `uc ]
+"49
+[; ;Convert.c: 49:     }
+}
+[e :U 6 ]
+"50
+[; ;Convert.c: 50: }
+[e :UE 5 ]
+}
+"52
+[; ;Convert.c: 52: void Convert_uint16touint8char ( uint16_t x , uint8_t* y)
+[v _Convert_uint16touint8char `(v ~T0 @X0 1 ef2`us`*uc ]
+"53
+[; ;Convert.c: 53: {
+{
+[e :U _Convert_uint16touint8char ]
+"52
+[; ;Convert.c: 52: void Convert_uint16touint8char ( uint16_t x , uint8_t* y)
+[v _x `us ~T0 @X0 1 r1 ]
+[v _y `*uc ~T0 @X0 1 r2 ]
+"53
+[; ;Convert.c: 53: {
+[f ]
+"54
+[; ;Convert.c: 54:     y[0] = ((x) / 100)+48;
+[e = *U + _y * -> -> 0 `i `x -> -> # *U _y `i `x -> + / -> _x `ui -> -> 100 `i `ui -> -> 48 `i `ui `uc ]
+"55
+[; ;Convert.c: 55:     y[1] = ((x % 100)/10)+48;
+[e = *U + _y * -> -> 1 `i `x -> -> # *U _y `i `x -> + / % -> _x `ui -> -> 100 `i `ui -> -> 10 `i `ui -> -> 48 `i `ui `uc ]
+"56
+[; ;Convert.c: 56:     y[2] = (x % 10)+48;
+[e = *U + _y * -> -> 2 `i `x -> -> # *U _y `i `x -> + % -> _x `ui -> -> 10 `i `ui -> -> 48 `i `ui `uc ]
+"58
+[; ;Convert.c: 58:     if(y[0] == '0')
+[e $ ! == -> *U + _y * -> -> 0 `i `x -> -> # *U _y `i `x `ui -> 48 `ui 8  ]
+"59
+[; ;Convert.c: 59:     {
+{
+"60
+[; ;Convert.c: 60:         y[0] = ' ';
+[e = *U + _y * -> -> 0 `i `x -> -> # *U _y `i `x -> -> 32 `ui `uc ]
+"61
+[; ;Convert.c: 61:     }
+}
+[e :U 8 ]
+"62
+[; ;Convert.c: 62: }
+[e :UE 7 ]
+}

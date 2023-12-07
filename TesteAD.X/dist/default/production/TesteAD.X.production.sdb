@@ -1,0 +1,1266 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K80 ]
+[d frameptr 4065 ]
+"83 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/adc.c
+[e E12385 . `uc
+channel_CTMU 28
+channel_Temp_diode 29
+channel_Vdd_core 30
+channel_1_024V_bandgap 31
+channel_AN2 2
+channel_AN3 3
+]
+"303 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\AppTesteLM4040.c
+[e E12748 . `uc
+channel_CTMU 28
+channel_Temp_diode 29
+channel_Vdd_core 30
+channel_1_024V_bandgap 31
+channel_AN2 2
+channel_AN3 3
+]
+"63
+[v _AppTesteLM4040_inicialize AppTesteLM4040_inicialize `(v  1 e 1 0 ]
+"101
+[v _AppTesteLM4040_Run AppTesteLM4040_Run `(v  1 e 1 0 ]
+"116
+[v _AppTesteLM4040_Controller AppTesteLM4040_Controller `(v  1 e 1 0 ]
+"182
+[v _AppTesteLM4040_Calibrando AppTesteLM4040_Calibrando `(v  1 e 1 0 ]
+"209
+[v _AppTesteLM4040_IdentificaMudanca AppTesteLM4040_IdentificaMudanca `(v  1 e 1 0 ]
+"244
+[v _AppTesteLM4040_Testando AppTesteLM4040_Testando `(v  1 e 1 0 ]
+"298
+[v _LeituraAD_run LeituraAD_run `(v  1 e 1 0 ]
+"313
+[v _AtualizaDisplay AtualizaDisplay `(v  1 e 1 0 ]
+"366
+[v _exibetensao exibetensao `(v  1 e 1 0 ]
+"386
+[v _ServiceAD_Media ServiceAD_Media `(us  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"72 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"319
+[v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
+"593
+[v _utoa utoa `(i  1 s 2 utoa ]
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1368
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+"9 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\tolower.c
+[v _tolower tolower `(i  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"8 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\Driver_LCD.c
+[v _DRV_LCD_Data DRV_LCD_Data `(v  1 e 1 0 ]
+"28
+[v _DRV_LCD_Cmd DRV_LCD_Cmd `(v  1 e 1 0 ]
+"37
+[v _DRV_LCD_Clear DRV_LCD_Clear `(v  1 e 1 0 ]
+"43
+[v _DRV_LCD_SetCursor DRV_LCD_SetCursor `(v  1 e 1 0 ]
+"64
+[v _DRV_LCD_Init DRV_LCD_Init `(v  1 e 1 0 ]
+"83
+[v _DRV_LCD_WriteChar DRV_LCD_WriteChar `(v  1 e 1 0 ]
+"99
+[v _DRV_LCD_WriteString DRV_LCD_WriteString `(v  1 e 1 0 ]
+"118
+[v _DRV_LCD_BLK DRV_LCD_BLK `(v  1 e 1 0 ]
+"6 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"62 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"83
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+"96
+[v _ADC_IsConversionDone ADC_IsConversionDone `(a  1 e 1 0 ]
+"102
+[v _ADC_GetConversionResult ADC_GetConversionResult `(us  1 e 2 0 ]
+"52 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"59 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/memory.c
+[v _FLASH_ReadByte FLASH_ReadByte `(uc  1 e 1 0 ]
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"150
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"173
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"196
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+"55 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"68 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"137
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"159
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"163
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"12 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\ServiceTimer.c
+[v _SRV_TIMER_Init SRV_TIMER_Init `(v  1 e 1 0 ]
+"25
+[v _SRV_TIMER_TickInterrupt SRV_TIMER_TickInterrupt `(v  1 e 1 0 ]
+"30
+[v _SRV_TIMER_GetTick SRV_TIMER_GetTick `(ul  1 e 4 0 ]
+"11 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\SRV_Display.c
+[v _writeTela writeTela `(v  1 e 1 0 ]
+"30
+[v _SRV_Display_Init SRV_Display_Init `(v  1 e 1 0 ]
+"40
+[v _SRV_Display_Run SRV_Display_Run `(v  1 e 1 0 ]
+"45
+[v _SRV_Display_Write SRV_Display_Write `(v  1 e 1 0 ]
+"57
+[v _SRV_Display_Clear SRV_Display_Clear `(v  1 e 1 0 ]
+"62
+[v _SRV_Display_SetCursor SRV_Display_SetCursor `(v  1 e 1 0 ]
+"67
+[v _SRV_Display_BLK_ON SRV_Display_BLK_ON `(v  1 e 1 0 ]
+[s S695 . 5 `a 1 calibrando 1 0 `a 1 identifica_mudanca 1 1 `a 1 testando 1 2 `a 1 aprovado 1 3 `a 1 reprovado 1 4 ]
+"15 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\AppTesteLM4040.c
+[v _state state `S695  1 e 5 0 ]
+[s S701 . 4 `us 1 AN2 2 0 `us 1 AN3 2 2 ]
+"22
+[v _LeituraAD LeituraAD `S701  1 e 4 0 ]
+"25
+[v _txtLinha1 txtLinha1 `[16]uc  1 e 16 0 ]
+"26
+[v _txtLinha2 txtLinha2 `[16]uc  1 e 16 0 ]
+"28
+[v _vMax vMax `us  1 e 2 0 ]
+"35
+[v _readData readData `uc  1 e 1 0 ]
+"43
+[v _tensaoreferencia tensaoreferencia `us  1 e 2 0 ]
+"49
+[v _tensaoexibe tensaoexibe `f  1 e 4 0 ]
+"51
+[v _difan difan `us  1 e 2 0 ]
+"53
+[v _erromedido erromedido `us  1 e 2 0 ]
+"57
+[v _cont_tempo cont_tempo `us  1 e 2 0 ]
+"26912 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f46k80.h
+[v _WPUB WPUB `VEuc  1 e 1 @3931 ]
+"26974
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3932 ]
+"27074
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3933 ]
+"29473
+[v _EEDATA EEDATA `VEuc  1 e 1 @3955 ]
+"29493
+[v _EEADR EEADR `VEuc  1 e 1 @3956 ]
+"29513
+[v _EEADRH EEADRH `VEuc  1 e 1 @3957 ]
+"29909
+[v _EECON2 EECON2 `VEuc  1 e 1 @3966 ]
+[s S959 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"29950
+[s S968 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S971 . 1 `S959 1 . 1 0 `S968 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES971  1 e 1 @3967 ]
+[s S744 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"30331
+[s S749 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S754 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+]
+[s S759 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PB2 1 0 :1:2 
+]
+[u S762 . 1 `S744 1 . 1 0 `S749 1 . 1 0 `S754 1 . 1 0 `S759 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES762  1 e 1 @3972 ]
+"30492
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"30594
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"30706
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"30818
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S536 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"30845
+[s S545 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S554 . 1 `S536 1 . 1 0 `S545 1 . 1 0 ]
+[v _LATDbits LATDbits `VES554  1 e 1 @3980 ]
+"30930
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+[s S814 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"30947
+[s S818 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+[u S822 . 1 `S814 1 . 1 0 `S818 1 . 1 0 ]
+[v _LATEbits LATEbits `VES822  1 e 1 @3981 ]
+"31088
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"31145
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"31207
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"31269
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"31331
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"31407
+[v _REFOCON REFOCON `VEuc  1 e 1 @3994 ]
+"31472
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S995 . 1 `uc 1 CCP3IF 1 0 :1:0 
+`uc 1 CCP4IF 1 0 :1:1 
+`uc 1 CCP5IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CMP1IF 1 0 :1:4 
+`uc 1 CMP2IF 1 0 :1:5 
+`uc 1 EEIF 1 0 :1:6 
+`uc 1 TMR4IF 1 0 :1:7 
+]
+"33940
+[u S1004 . 1 `S995 1 . 1 0 ]
+"33940
+"33940
+[v _PIR4bits PIR4bits `VES1004  1 e 1 @4023 ]
+"34763
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"34834
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"34938
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S37 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"34983
+[s S40 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+"34983
+[s S44 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"34983
+[s S52 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+"34983
+[s S55 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+"34983
+[s S58 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+"34983
+[s S61 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+"34983
+[s S64 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+"34983
+[u S67 . 1 `S37 1 . 1 0 `S40 1 . 1 0 `S44 1 . 1 0 `S52 1 . 1 0 `S55 1 . 1 0 `S58 1 . 1 0 `S61 1 . 1 0 `S64 1 . 1 0 ]
+"34983
+"34983
+[v _ADCON0bits ADCON0bits `VES67  1 e 1 @4034 ]
+"35070
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"35090
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S268 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"36011
+[s S270 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+"36011
+[s S273 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+"36011
+[s S276 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+"36011
+[s S279 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+"36011
+[s S282 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_CM 1 0 :1:5 
+]
+"36011
+[s S285 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 nCM 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+"36011
+[s S294 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 CM 1 0 :1:5 
+]
+"36011
+[u S301 . 1 `S268 1 . 1 0 `S270 1 . 1 0 `S273 1 . 1 0 `S276 1 . 1 0 `S279 1 . 1 0 `S282 1 . 1 0 `S285 1 . 1 0 `S294 1 . 1 0 ]
+"36011
+"36011
+[v _RCONbits RCONbits `VES301  1 e 1 @4048 ]
+"36176
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"36248
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"36325
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+[s S390 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"36345
+[s S397 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+"36345
+[u S401 . 1 `S390 1 . 1 0 `S397 1 . 1 0 ]
+"36345
+"36345
+[v _T0CONbits T0CONbits `VES401  1 e 1 @4053 ]
+"36402
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"36422
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S138 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"37134
+[s S141 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 INT3IP 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 INTEDG3 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"37134
+[s S150 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT3P 1 0 :1:1 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+"37134
+[u S156 . 1 `S138 1 . 1 0 `S141 1 . 1 0 `S150 1 . 1 0 ]
+"37134
+"37134
+[v _INTCON2bits INTCON2bits `VES156  1 e 1 @4081 ]
+[s S179 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"37236
+[s S188 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"37236
+[s S197 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"37236
+[u S201 . 1 `S179 1 . 1 0 `S188 1 . 1 0 `S197 1 . 1 0 ]
+"37236
+"37236
+[v _INTCONbits INTCONbits `VES201  1 e 1 @4082 ]
+"37478
+[v _TABLAT TABLAT `VEuc  1 e 1 @4085 ]
+"37507
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @4086 ]
+"37527
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @4087 ]
+"37547
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @4088 ]
+"55 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[80]uc  1 s 80 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"59 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"61
+[v _timer0ReloadVal timer0ReloadVal `VEus  1 e 2 0 ]
+"8 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\ServiceTimer.c
+[v _count_aux count_aux `*.39VEul  1 e 2 0 ]
+"10
+[v _tickRate tickRate `VEul  1 e 4 0 ]
+[s S613 . 32 `[2][16]uc 1 tela 32 0 ]
+"4 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\SRV_Display.c
+[v _telaDisplay telaDisplay `*.2S613  1 e 2 0 ]
+"6 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"37
+} 0
+"50 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"68 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"96
+} 0
+"55 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"60 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"52 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"63 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\AppTesteLM4040.c
+[v _AppTesteLM4040_inicialize AppTesteLM4040_inicialize `(v  1 e 1 0 ]
+{
+"100
+} 0
+"12 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\ServiceTimer.c
+[v _SRV_TIMER_Init SRV_TIMER_Init `(v  1 e 1 0 ]
+{
+"17
+} 0
+"159 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/tmr0.c
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"161
+} 0
+"30 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\SRV_Display.c
+[v _SRV_Display_Init SRV_Display_Init `(v  1 e 1 0 ]
+{
+"38
+} 0
+"62
+[v _SRV_Display_SetCursor SRV_Display_SetCursor `(v  1 e 1 0 ]
+{
+[v SRV_Display_SetCursor@linha linha `uc  1 a 1 wreg ]
+[v SRV_Display_SetCursor@linha linha `uc  1 a 1 wreg ]
+[v SRV_Display_SetCursor@coluna coluna `uc  1 p 1 10 ]
+"64
+[v SRV_Display_SetCursor@linha linha `uc  1 a 1 11 ]
+"65
+} 0
+"57
+[v _SRV_Display_Clear SRV_Display_Clear `(v  1 e 1 0 ]
+{
+"60
+} 0
+"37 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\Driver_LCD.c
+[v _DRV_LCD_Clear DRV_LCD_Clear `(v  1 e 1 0 ]
+{
+"41
+} 0
+"67 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\SRV_Display.c
+[v _SRV_Display_BLK_ON SRV_Display_BLK_ON `(v  1 e 1 0 ]
+{
+"70
+} 0
+"118 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\Driver_LCD.c
+[v _DRV_LCD_BLK DRV_LCD_BLK `(v  1 e 1 0 ]
+{
+"122
+} 0
+"64
+[v _DRV_LCD_Init DRV_LCD_Init `(v  1 e 1 0 ]
+{
+"81
+} 0
+"196 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/memory.c
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v DATAEE_ReadByte@bAdd bAdd `us  1 p 2 2 ]
+"207
+} 0
+"62 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"81
+} 0
+"101 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\AppTesteLM4040.c
+[v _AppTesteLM4040_Run AppTesteLM4040_Run `(v  1 e 1 0 ]
+{
+"112
+} 0
+"366
+[v _exibetensao exibetensao `(v  1 e 1 0 ]
+{
+"368
+[v exibetensao@tick tick `ul  1 s 4 tick ]
+"369
+[v exibetensao@tickLast tickLast `ul  1 s 4 tickLast ]
+"383
+} 0
+"40 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\SRV_Display.c
+[v _SRV_Display_Run SRV_Display_Run `(v  1 e 1 0 ]
+{
+"43
+} 0
+"11
+[v _writeTela writeTela `(v  1 e 1 0 ]
+{
+"28
+} 0
+"298 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\AppTesteLM4040.c
+[v _LeituraAD_run LeituraAD_run `(v  1 e 1 0 ]
+{
+"311
+} 0
+"386
+[v _ServiceAD_Media ServiceAD_Media `(us  1 e 2 0 ]
+{
+"391
+[v ServiceAD_Media@valueAux valueAux `ul  1 a 4 27 ]
+"390
+[v ServiceAD_Media@valueMean valueMean `us  1 a 2 25 ]
+"389
+[v ServiceAD_Media@conversion conversion `us  1 a 2 23 ]
+"392
+[v ServiceAD_Media@timeout timeout `us  1 a 2 21 ]
+"394
+[v ServiceAD_Media@index index `uc  1 a 1 31 ]
+"396
+[v ServiceAD_Media@mean mean `[20]us  1 s 40 mean ]
+"397
+[v ServiceAD_Media@accumulated accumulated `uc  1 s 1 accumulated ]
+"421
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 10 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 14 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 2 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 6 ]
+"30
+} 0
+"83 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/adc.c
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+{
+[v ADC_StartConversion@channel channel `E12385  1 a 1 wreg ]
+[v ADC_StartConversion@channel channel `E12385  1 a 1 wreg ]
+"86
+[v ADC_StartConversion@channel channel `E12385  1 a 1 3 ]
+"94
+} 0
+"96
+[v _ADC_IsConversionDone ADC_IsConversionDone `(a  1 e 1 0 ]
+{
+"100
+} 0
+"102
+[v _ADC_GetConversionResult ADC_GetConversionResult `(us  1 e 2 0 ]
+{
+"106
+} 0
+"313 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\AppTesteLM4040.c
+[v _AtualizaDisplay AtualizaDisplay `(v  1 e 1 0 ]
+{
+"315
+[v AtualizaDisplay@tick tick `ul  1 s 4 tick ]
+"316
+[v AtualizaDisplay@tickLast tickLast `ul  1 s 4 tickLast ]
+"363
+} 0
+"9 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S1716 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+"13
+[v sprintf@f f `S1716  1 a 6 94 ]
+"12
+[v sprintf@ap ap `[1]*.39v  1 a 2 92 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 80 ]
+[v sprintf@fmt fmt `*.32Cuc  1 p 2 82 ]
+"23
+} 0
+"1368 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1371
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 81 ]
+[s S1063 _IO_FILE 0 ]
+"1368
+[v vfprintf@fp fp `*.39S1063  1 p 2 75 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 77 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 79 ]
+"1382
+} 0
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"675
+[v vfpfcnvrt@llu llu `uo  1 a 8 56 ]
+"676
+[v vfpfcnvrt@f f `d  1 a 4 72 ]
+"672
+[v vfpfcnvrt@ct ct `[3]uc  1 a 3 76 ]
+"673
+[v vfpfcnvrt@done done `i  1 a 2 64 ]
+"672
+[v vfpfcnvrt@c c `uc  1 a 1 79 ]
+[s S1063 _IO_FILE 0 ]
+"670
+[v vfpfcnvrt@fp fp `*.39S1063  1 p 2 65 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 67 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 69 ]
+"1365
+} 0
+"593
+[v _utoa utoa `(i  1 s 2 utoa ]
+{
+"596
+[v utoa@n n `uo  1 a 8 51 ]
+"595
+[v utoa@i i `i  1 a 2 59 ]
+[v utoa@w w `i  1 a 2 49 ]
+[v utoa@p p `i  1 a 2 47 ]
+[s S1063 _IO_FILE 0 ]
+"593
+[v utoa@fp fp `*.39S1063  1 p 2 29 ]
+[v utoa@d d `uo  1 p 8 31 ]
+"619
+} 0
+"9 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+{
+"12
+[v ___lomod@counter counter `uc  1 a 1 18 ]
+"9
+[v ___lomod@dividend dividend `uo  1 p 8 2 ]
+[v ___lomod@divisor divisor `uo  1 p 8 10 ]
+"27
+} 0
+"9 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+{
+"12
+[v ___lodiv@quotient quotient `uo  1 a 8 18 ]
+"13
+[v ___lodiv@counter counter `uc  1 a 1 26 ]
+"9
+[v ___lodiv@dividend dividend `uo  1 p 8 2 ]
+[v ___lodiv@divisor divisor `uo  1 p 8 10 ]
+"32
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+{
+"5
+[v strncmp@r r `*.32Cuc  1 a 2 11 ]
+[v strncmp@l l `*.39Cuc  1 a 2 9 ]
+"3
+[v strncmp@_l _l `*.39Cuc  1 p 2 2 ]
+[v strncmp@_r _r `*.32Cuc  1 p 2 4 ]
+[v strncmp@n n `ui  1 p 2 6 ]
+"9
+} 0
+"319 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\doprnt.c
+[v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
+{
+"323
+[v efgtoa@u u `d  1 a 4 52 ]
+[v efgtoa@g g `d  1 a 4 44 ]
+[v efgtoa@l l `d  1 a 4 38 ]
+[v efgtoa@h h `d  1 a 4 34 ]
+[v efgtoa@ou ou `d  1 a 4 0 ]
+"322
+[v efgtoa@n n `i  1 a 2 50 ]
+[v efgtoa@e e `i  1 a 2 48 ]
+[v efgtoa@i i `i  1 a 2 42 ]
+[v efgtoa@w w `i  1 a 2 31 ]
+[v efgtoa@p p `i  1 a 2 28 ]
+[v efgtoa@sign sign `i  1 a 2 26 ]
+[v efgtoa@d d `i  1 a 2 24 ]
+[v efgtoa@ne ne `i  1 a 2 22 ]
+[v efgtoa@m m `i  1 a 2 20 ]
+[v efgtoa@pp pp `i  1 a 2 18 ]
+[v efgtoa@t t `i  1 a 2 16 ]
+"321
+[v efgtoa@mode mode `uc  1 a 1 33 ]
+[v efgtoa@nmode nmode `uc  1 a 1 30 ]
+[s S1063 _IO_FILE 0 ]
+"319
+[v efgtoa@fp fp `*.39S1063  1 p 2 53 ]
+[v efgtoa@f f `d  1 p 4 55 ]
+[v efgtoa@c c `uc  1 p 1 59 ]
+"503
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\tolower.c
+[v _tolower tolower `(i  1 e 2 0 ]
+{
+[v tolower@c c `i  1 p 2 8 ]
+"8
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+{
+[v isupper@c c `i  1 p 2 2 ]
+"8
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"6
+[v strcpy@d d `*.39uc  1 a 2 10 ]
+"5
+[v strcpy@s s `*.34Cuc  1 a 2 8 ]
+"3
+[v strcpy@dest dest `*.39uc  1 p 2 2 ]
+[v strcpy@src src `*.34Cuc  1 p 2 4 ]
+"9
+} 0
+"72 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 27 ]
+[v pad@i i `i  1 a 2 25 ]
+[s S1063 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.39S1063  1 p 2 18 ]
+[v pad@buf buf `*.39uc  1 p 2 20 ]
+[v pad@p p `i  1 p 2 22 ]
+"95
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 4 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 2 ]
+"12
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 16 ]
+"10
+[v fputs@c c `uc  1 a 1 15 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 11 ]
+[s S1716 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.39S1716  1 p 2 13 ]
+"19
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 2 ]
+[s S1716 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.39S1716  1 p 2 4 ]
+"21
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+{
+[u S1650 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"5
+[v floorf@u u `S1650  1 a 4 43 ]
+"7
+[v floorf@m m `ul  1 a 4 37 ]
+"6
+[v floorf@e e `i  1 a 2 41 ]
+"3
+[v floorf@x x `f  1 p 4 27 ]
+"4
+[v floorf@F524 F524 `S1650  1 s 4 F524 ]
+"27
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+{
+[u S1650 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v ___fpclassifyf@u u `S1650  1 a 4 12 ]
+"7
+[v ___fpclassifyf@e e `i  1 a 2 10 ]
+"4
+[v ___fpclassifyf@x x `f  1 p 4 2 ]
+"5
+[v ___fpclassifyf@F463 F463 `S1650  1 s 4 F463 ]
+"11
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 11 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 10 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 2 ]
+"70
+} 0
+"245 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 41 ]
+[v ___flsub@a a `d  1 p 4 45 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 17 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 16 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 15 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 14 ]
+"10
+[v ___fladd@b b `d  1 p 4 2 ]
+[v ___fladd@a a `d  1 p 4 6 ]
+"237
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 2 ]
+"20
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 41 ]
+[v ___flge@ff2 ff2 `d  1 p 4 45 ]
+"19
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 2 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 6 ]
+"12
+} 0
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 21 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 14 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 19 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 26 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 25 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 18 ]
+"11
+[v ___fldiv@b b `d  1 p 4 2 ]
+[v ___fldiv@a a `d  1 p 4 6 ]
+"185
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 7 ]
+[v ___awmod@counter counter `uc  1 a 1 6 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+[v ___awmod@divisor divisor `i  1 p 2 4 ]
+"34
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 8 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 7 ]
+[v ___awdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+[v ___awdiv@divisor divisor `i  1 p 2 4 ]
+"41
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+"6
+[v atoi@n n `i  1 a 2 22 ]
+[v atoi@neg neg `i  1 a 2 15 ]
+"4
+[v atoi@s s `*.32Cuc  1 p 2 9 ]
+"16
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+{
+[v isspace@c c `i  1 p 2 2 ]
+"8
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+{
+[v isdigit@c c `i  1 p 2 2 ]
+"8
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 6 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 2 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 4 ]
+"53
+} 0
+"45 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\SRV_Display.c
+[v _SRV_Display_Write SRV_Display_Write `(v  1 e 1 0 ]
+{
+[v SRV_Display_Write@linha linha `uc  1 a 1 wreg ]
+[v SRV_Display_Write@linha linha `uc  1 a 1 wreg ]
+[v SRV_Display_Write@coluna coluna `uc  1 p 1 10 ]
+[v SRV_Display_Write@data data `*.39uc  1 p 2 11 ]
+"47
+[v SRV_Display_Write@linha linha `uc  1 a 1 13 ]
+"49
+} 0
+"99 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\Driver_LCD.c
+[v _DRV_LCD_WriteString DRV_LCD_WriteString `(v  1 e 1 0 ]
+{
+"101
+[v DRV_LCD_WriteString@i i `i  1 a 2 8 ]
+"99
+[v DRV_LCD_WriteString@data data `*.39uc  1 p 2 6 ]
+"104
+} 0
+"83
+[v _DRV_LCD_WriteChar DRV_LCD_WriteChar `(v  1 e 1 0 ]
+{
+[v DRV_LCD_WriteChar@data data `uc  1 a 1 wreg ]
+"85
+[v DRV_LCD_WriteChar@y y `uc  1 a 1 4 ]
+[v DRV_LCD_WriteChar@temp temp `uc  1 a 1 3 ]
+"83
+[v DRV_LCD_WriteChar@data data `uc  1 a 1 wreg ]
+"86
+[v DRV_LCD_WriteChar@data data `uc  1 a 1 5 ]
+"97
+} 0
+"43
+[v _DRV_LCD_SetCursor DRV_LCD_SetCursor `(v  1 e 1 0 ]
+{
+[v DRV_LCD_SetCursor@linha linha `uc  1 a 1 wreg ]
+"45
+[v DRV_LCD_SetCursor@temp temp `uc  1 a 1 9 ]
+[v DRV_LCD_SetCursor@y y `uc  1 a 1 8 ]
+[v DRV_LCD_SetCursor@z z `uc  1 a 1 7 ]
+"43
+[v DRV_LCD_SetCursor@linha linha `uc  1 a 1 wreg ]
+[v DRV_LCD_SetCursor@coluna coluna `uc  1 p 1 5 ]
+"46
+[v DRV_LCD_SetCursor@linha linha `uc  1 a 1 6 ]
+"62
+} 0
+"28
+[v _DRV_LCD_Cmd DRV_LCD_Cmd `(v  1 e 1 0 ]
+{
+[v DRV_LCD_Cmd@cmd cmd `uc  1 a 1 wreg ]
+[v DRV_LCD_Cmd@cmd cmd `uc  1 a 1 wreg ]
+"30
+[v DRV_LCD_Cmd@cmd cmd `uc  1 a 1 4 ]
+"35
+} 0
+"8
+[v _DRV_LCD_Data DRV_LCD_Data `(v  1 e 1 0 ]
+{
+[v DRV_LCD_Data@data data `uc  1 a 1 wreg ]
+[v DRV_LCD_Data@data data `uc  1 a 1 wreg ]
+"10
+[v DRV_LCD_Data@data data `uc  1 a 1 2 ]
+"27
+} 0
+"116 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\AppTesteLM4040.c
+[v _AppTesteLM4040_Controller AppTesteLM4040_Controller `(v  1 e 1 0 ]
+{
+"179
+} 0
+"244
+[v _AppTesteLM4040_Testando AppTesteLM4040_Testando `(v  1 e 1 0 ]
+{
+"265
+[v AppTesteLM4040_Testando@tick tick `ul  1 s 4 tick ]
+"266
+[v AppTesteLM4040_Testando@tickLast tickLast `ul  1 s 4 tickLast ]
+"294
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 12 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 11 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 2 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 10 ]
+"44
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1515 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1520 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S1523 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1515 1 fAsBytes 4 0 `S1520 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1523  1 a 4 35 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 29 ]
+[s S1591 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1594 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1591 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1594  1 a 2 39 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 34 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 33 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 28 ]
+"8
+[v ___flmul@b b `d  1 p 4 16 ]
+[v ___flmul@a a `d  1 p 4 20 ]
+"205
+} 0
+"173 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/memory.c
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+{
+"175
+[v DATAEE_WriteByte@GIEBitValue GIEBitValue `uc  1 a 1 5 ]
+"173
+[v DATAEE_WriteByte@bAdd bAdd `us  1 p 2 2 ]
+[v DATAEE_WriteByte@bData bData `uc  1 p 1 4 ]
+"194
+} 0
+"209 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\AppTesteLM4040.c
+[v _AppTesteLM4040_IdentificaMudanca AppTesteLM4040_IdentificaMudanca `(v  1 e 1 0 ]
+{
+"223
+[v AppTesteLM4040_IdentificaMudanca@tick tick `ul  1 s 4 tick ]
+"224
+[v AppTesteLM4040_IdentificaMudanca@tickLast tickLast `ul  1 s 4 tickLast ]
+"226
+[v AppTesteLM4040_IdentificaMudanca@cont_tempo cont_tempo `us  1 s 2 cont_tempo ]
+"242
+} 0
+"182
+[v _AppTesteLM4040_Calibrando AppTesteLM4040_Calibrando `(v  1 e 1 0 ]
+{
+"185
+[v AppTesteLM4040_Calibrando@tick tick `ul  1 s 4 tick ]
+"186
+[v AppTesteLM4040_Calibrando@tickLast tickLast `ul  1 s 4 tickLast ]
+"188
+[v AppTesteLM4040_Calibrando@cont_tempo cont_tempo `us  1 s 2 cont_tempo ]
+"207
+} 0
+"30 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\ServiceTimer.c
+[v _SRV_TIMER_GetTick SRV_TIMER_GetTick `(ul  1 e 4 0 ]
+{
+"34
+} 0
+"58 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"69
+} 0
+"137 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"156
+} 0
+"25 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\ServiceTimer.c
+[v _SRV_TIMER_TickInterrupt SRV_TIMER_TickInterrupt `(v  1 e 1 0 ]
+{
+"28
+} 0
+"163 Q:\02-Projetos\Montrel\Firmware\ProgramaTesteLM4040\Dev\Flavio\TesteAD.X\mcc_generated_files/tmr0.c
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"166
+} 0
